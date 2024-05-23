@@ -1,0 +1,190 @@
+
+
+@media screen and (max-width:500px) {
+    body{
+        box-sizing: border-box;
+        width: 96vw;
+        padding: 10;
+        
+    }
+    .outptDiv{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 5px;
+    }
+    .lblRight{
+        text-align: left;
+    }
+}
+@media screen and (min-width:501px) and (max-width:920px){
+    body{
+        box-sizing: border-box;
+        width: 98vw;
+        padding: 10;
+    }
+
+    #logo{
+        font-size: 320%;
+    }
+    #prntDate{
+        font-size: 300%;
+    }
+    #inputType{
+        font-size: 153%;
+    }
+    #input{
+        font-size: 280%;
+    }
+    .outptDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5px;
+    }
+    .lblRight{
+        text-align: right;
+    }
+}
+@media screen and (max-width:920px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:921px){
+    body{
+        box-sizing: border-box;
+        width: 100vw;
+        padding: 10;
+    }
+    #divtop{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+header,#calcBtn{
+    border-radius: 20px;
+    background: green;
+    color: gold;
+    padding: 0 5px;
+}
+
+#prntDate{ 
+    margin: 0px;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#input{
+    box-sizing: border-box;
+}.GridTable{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,
+    minmax(105px,1fr));
+}
+.inputCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.inpt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 4px;
+    /* align-items: center; */
+}label{
+    margin: 0px 4px;
+}
+.offType{
+    display: flex;
+    flex-direction: row;
+
+}
+.mrgn{
+    margin: 10px;
+}
+.pmrgn{
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.divMrgn{
+    margin: 4px;
+}
+
+.radioPair{
+    display: flex;
+    flex-direction: row;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: gold;
+    color: green;
+    font-weight: bold;
+    font-size: x-large;
+
+    border-radius: 20px;
+}
+#inputType{
+    font-weight: bolder;
+    color: green;
+}
+.inputPairs{
+    display: inline;
+    margin: 10px;
+}
+
+.inbx{
+    width: 25px;
+    margin-top: 3px;
+}
+
+#outpt{
+    padding: 10px;
+    margin: 10px;
+}.outptDiv div{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    display: flex;
+    justify-content: center; 
+}
+
+#logo{
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+#calcBtn{
+    margin: 10px 0px;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.inbx{
+    margin-bottom: 6px;
+}
